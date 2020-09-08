@@ -9,10 +9,12 @@
     "UiPath.UIAutomation.Activities": "[19.11.1]"
   },
   "webServices": [],
+  "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "19.10.4.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.2",
   "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
     "autoDispose": false,
     "isPausable": true,
     "requiresUserInteraction": true,
@@ -32,5 +34,10 @@
     },
     "fileInfoCollection": []
   },
-  "expressionLanguage": "VisualBasic"
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false
 }
